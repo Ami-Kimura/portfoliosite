@@ -1,0 +1,168 @@
+/*-------------------------------
+              BASE
+--------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: #FAFAFA;
+}
+
+/*-------------------------------
+            LAYOUT
+--------------------------------*/
+#container {
+  margin: auto;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/*--------------------------------
+          Main Visual
+---------------------------------*/
+.main-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+}
+
+.main-visual-inner {
+  padding: 0 40px;
+}
+
+
+
+h1 {
+  font-size: 180%;
+  color: #3D3D3D;
+  text-align: center;
+  margin-top: 100px;
+  padding: auto;
+  letter-spacing: .1em;
+}
+
+/*--------------------------------
+              WORKS
+---------------------------------*/
+.flex-works {
+  padding: 20px 50px 50px 50px;
+  background: #FAFAFA;
+}
+
+.works-images{
+  display: flex;
+  flex-direction: column;
+}
+
+
+img.margin01 {
+  margin-bottom: 50px;
+}
+
+img.margin02 {
+  margin-bottom: 50px;
+}
+
+img.margin03 {
+  margin-bottom: 50px;
+}
+
+img.margin04 {
+  margin-bottom: 50px;
+}
+
+img.margin05 {
+  margin-bottom: 50px;
+}
+
+img.margin06 {
+  margin-bottom: 50px;
+}
+
+img.margin07 {
+  margin-bottom: 50px;
+}
+
+img.margin08 {
+  margin-bottom: 50px;
+}
+
+img.margin09 {
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+/*--------------------------------
+              ABOUT
+---------------------------------*/
+.icon {
+  text-align: center;
+}
+
+.profile {
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.profile p{
+  line-height: 180%
+}
+
+
+/*--------------------------------
+              CONTACT
+---------------------------------*/
+.contact {
+  width: 200px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.contact p{
+  line-height: 180%
+}
+
+
+#page-top {
+  width: 100px;
+  height: 30px;
+  float: right;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+
+#page-top i {
+  font-size: 30px;
+  color: #333333
+}
+
+#page-top p {
+  font-size: 10px;
+  color: #333333;
+}
+
+footer {
+  padding: 1.5rem;
+  text-align: center;
+  color: #333333;
+  letter-spacing: .1em;
+}

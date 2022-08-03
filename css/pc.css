@@ -1,0 +1,57 @@
+/*-------------------------------
+             pc.css
+--------------------------------*/
+header {
+  height: 5rem;
+}
+
+header h2 {
+  position: absolute;
+  top: 1.4rem;
+  left: 2rem;
+  color: #333333;
+  font-size: 1.5rem;
+  letter-spacing: .08em;
+  width: 100%
+}
+
+.mainvisual-wrapper {
+  margin-top: 7rem;
+  width: 300px;
+  height: auto;
+}
+
+nav {
+  position: absolute;
+  top: 1.8rem;
+  right: .3em;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  color: #333333;
+  letter-spacing: .08em;
+}
+
+.works-images {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+
+/*-------------------------------
+            ABOUT
+--------------------------------*/
+img.icon-image {
+  width: 130px;
+  height: auto;
+}

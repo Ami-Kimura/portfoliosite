@@ -1,0 +1,92 @@
+/*-------------------------------
+          mobile.css
+--------------------------------*/
+header {
+  height: 3rem;
+}
+
+header h2 {
+  position: absolute;
+  top: 1rem;
+  left: 1.2rem;
+  color: #333333;
+  font-size: 1.2rem;
+  letter-spacing: .08em;
+}
+
+.mainvisual-wrapper {
+ width:200px;
+ height:auto;
+}
+
+
+nav {
+  position: absolute;
+  top: 1.2rem;
+  right: 0.3rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  margin-right: 0.8rem;
+}
+
+nav ul li a {
+  color: #333333;
+  font-size: 0.8rem;
+  letter-spacing: .08em;
+}
+
+h1 {
+  font-size:25px;
+}
+
+.works-images {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+img.margin01 {
+  margin-bottom: 50px;
+}
+
+img.margin02 {
+  margin-bottom: 50px;
+}
+
+img.margin03 {
+  margin-bottom: 50px;
+}
+
+img.margin04 {
+  margin-bottom: 50px;
+}
+
+img.margin05 {
+  margin-bottom: 50px;
+}
+
+img.margin06 {
+  margin-bottom: 50px;
+}
+
+img.margin07 {
+  margin-bottom: 50px;
+}
+
+img.margin08 {
+  margin-bottom: 50px;
+}
+
+
+/*-------------------------------
+            ABOUT
+--------------------------------*/
+img.icon-image {
+ width:90px;
+ height:auto;
+}
