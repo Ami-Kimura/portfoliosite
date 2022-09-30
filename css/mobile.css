@@ -15,10 +15,9 @@ header h2 {
 }
 
 .mainvisual-wrapper {
- width:200px;
- height:auto;
+  width: 200px;
+  height: auto;
 }
-
 
 nav {
   position: absolute;
@@ -42,51 +41,27 @@ nav ul li a {
 }
 
 h1 {
-  font-size:25px;
+  font-size: 25px;
 }
 
 .works-images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 2rem;
   margin-bottom: 3rem;
+  text-align:center;
 }
 
-img.margin01 {
-  margin-bottom: 50px;
+img.margin01, img.margin02, img.margin03, img.margin04, img.margin05,
+img.margin06, img.margin07, img.margin08, img.margin09{
+  margin-bottom: 80px;
 }
-
-img.margin02 {
-  margin-bottom: 50px;
-}
-
-img.margin03 {
-  margin-bottom: 50px;
-}
-
-img.margin04 {
-  margin-bottom: 50px;
-}
-
-img.margin05 {
-  margin-bottom: 50px;
-}
-
-img.margin06 {
-  margin-bottom: 50px;
-}
-
-img.margin07 {
-  margin-bottom: 50px;
-}
-
-img.margin08 {
-  margin-bottom: 50px;
-}
-
 
 /*-------------------------------
             ABOUT
 --------------------------------*/
 img.icon-image {
- width:90px;
- height:auto;
+  width: 90px;
+  height: auto;
 }
