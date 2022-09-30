@@ -42,11 +42,16 @@ nav ul li a {
 }
 
 .works-images {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-
+img.margin01, img.margin02, img.margin03, img.margin04, img.margin05,
+img.margin06, img.margin07, img.margin08, img.margin09 {
+  margin: 50px;
+  width: auto;
+  height: 300px;
+}
 
 /*-------------------------------
             ABOUT
